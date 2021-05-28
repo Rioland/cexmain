@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.wrap {
+    background-color: white;
+    text-align: start;
+    box-shadow: 10px black;
+    background-attachment: fixed;
+    background-clip: border-box;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 10px 10 10 black;
+}
+.wrap ul {
+    list-style: none;
+    display: inline-flex;
+    color: black;
+}
+
+.wrap ul li {
+    width: 150px;
+    margin: 5px;
+    /* margin-top: 5px;
+     margin-top: 5px; */
+    padding: 5px;
+}
+.wrap ul li a {
+    text-decoration: none;
+}
+.sub-menu-prod {
+    display: none;
+}
+.wrap ul li:hover .sub-menu-prod {
+    display: block;
+    background-color: white;
+    color: white;
+    position: absolute;
+    width: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.sub-menu-prod ul li {
+    width: 300px;
+    height: auto;
+    padding: 16px;
+    border-left: 1px solid whitesmoke;
+}
+.sub-menu-h {
+    font-size: large;
+    font-weight: bold;
+}
+.sub-menu-fee {
+    display: none;
+}
+.wrap ul li:hover .sub-menu-fee {
+    display: block;
+    background-color: white;
+    color: white;
+    position: absolute;
+    width: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+.wrap ul li:hover .sub-menu-fee ul {
+    display: block;
+}
+.sub-menu-comp {
+    display: none;
+}
+
+.wrap ul li:hover .sub-menu-comp ul {
+    display: block;
+}
+.wrap ul li:hover .sub-menu-comp {
+    display: block;
+    background-color: white;
+    color: white;
+    position: absolute;
+    width: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+.sec2 {
+    width: 100%;
+    height: 800px;
+
+    background-color: snow;
+    padding-top: 100px;
+}
+.sec2 .min {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding-left: 35px;
+    background-color: transparent;
+}
+.sec2 .min div {
+    width: 50%;
+    padding: 20px;
+}
+.sec2 .min .set2-div2 {
+    background-color: transparent;
+}
+
+.sec2 .min .set2-div1 .ss1 {
+    font-size: 60px;
+    font-weight: bolder;
+    /* padding: 15px; */
+     width: 50%;
+}
+.sec2 .min .set2-div1 {
+    width: 50%;
+    margin-right: 50px;
+}
+.bid {
+    width: 50px;
+    height: 25px;
+    background-color: green;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    justify-items: center;
+    /* padding: 10px; */
+}
+
+@media screen and (max-width: 1200px) {
+   
+}
